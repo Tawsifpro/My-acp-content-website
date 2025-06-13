@@ -1,0 +1,66 @@
+/*Base style*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}	
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    color: black;
+    overflow-x: hidden;
+}
+.hero{
+    height: 50vh;
+    display:flex;
+    align-items: center;  
+    justify-content: center; 
+    background: linear-gradient(135deg, rgb(80, 155, 234) ,rgb(211, 39, 211) );;
+    color:aliceblue;
+    text-align: center;
+    position:relative;
+    overflow: hidden;
+}
+
+.hero content{
+   max-width: 800px;
+   padding: 0px 20px;
+   z-index: 2;
+
+}
+
+.hero h1{
+    font-size: 4rem;
+    margin-bottom:1.5rem;
+    font-weight: 800;
+}
+
+.hero p{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.animated-text{
+    display:inline-block;
+    position:relative;
+}
+
+span{
+    display: inline-block;
+}
+
+.typewriter{
+    border-right: 3px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+    typing 3.5s steps(40,end),
+    blank-carpet 0.75s step-end infinite;   
+}
+
+@keyframes typing{
+ from {width: 0;}
+ to {width: 100%;}
+ 
+}
+
