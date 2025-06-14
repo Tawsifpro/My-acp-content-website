@@ -30,8 +30,8 @@ body{
 }
 
 .hero h1{
-    font-size: 4rem;
-    margin-bottom:1.5rem;
+    font-size: 2rem;
+    margin-bottom:1rem;
     font-weight: 800;
 }
 
@@ -63,4 +63,63 @@ span{
  to {width: 100%;}
  
 }
+
+.content{
+    flex:1;
+    padding:20px;
+    background: linear-gradient(45deg, #FF5733, #33FFCE, #335BFF);
+
+}
+
+.footer{
+    background: #335BFF;
+    color: rgb(255, 255, 255);
+    padding:20px 0;
+    margin-top:auto;
+}
+
+.footer-content{
+      display: flex;
+      justify-content: center;
+      max-width:1200px;
+      margin: 0 auto ;
+      padding:020px;
+}
+
+.footer-section{
+    padding: 15px;
+    text-align: center;
+}
+
+.footer-section h3{
+   margin-bottom: 15px;
+   font-size:1.2rem;
+}
+
+.footer-section p{
+    margin-bottom: 10px;
+}
+
+.footer-bottom{
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+    margin-top:20px;
+}
+
+#backToTop{
+    background: #7574a9;
+    color: antiquewhite;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+#backToTop:hover{
+    background: #3a14c1;
+}
+
+
 
